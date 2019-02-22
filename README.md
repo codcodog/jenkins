@@ -38,4 +38,11 @@ upstream jenkins {
 
 $ sudo nginx -s reload # 平滑加载配置
 ```
+
+修改本地 `hosts`
+```
+$ cat /etc/hosts
+127.0.0.1 jenkins.local.com
+```
+
 浏览器直接访问 `jenkins.local.com` 即可访问 `Jenkins` 服务了.
